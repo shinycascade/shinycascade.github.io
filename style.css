@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');  */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(104, 104, 228);
+}
+
+/* ---------- Nav bar */
+nav h1.logo {
+  color: white;
+}
+
+nav {
+  width: 100%;
+}
+
+nav .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(83, 83, 230);
+}
+
+.nav-wrapper > h1, ul {
+  margin: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+font-weight: bold;
+text-decoration: none;
+color: white;
+}
+
+/* ----------- Header section */
+
+header {
+  width: 100%;
+  background-color: rgb(66, 66, 228);
+}
+
+header .header-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section img {
+  max-width: 40vw;
+  min-width: 300px;
+}
+
+.text-section {
+  margin-left: 2vw;
+  margin-top: 2vw;
+  color: white;
+  max-width: 50rem;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.text-section h1 {
+  line-height: 2.75rem;
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
+
+
+
+@media (max-width: 700px) {
+  .header-section {
+    flex-direction: column;
+  }
+}
