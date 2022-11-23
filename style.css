@@ -9,6 +9,7 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: rgb(104, 104, 228);
+    overflow-x: hidden;
 }
 
 /* ---------- Nav bar */
@@ -79,7 +80,6 @@ header .header-section {
   color: white;
   max-width: 50rem;
   font-size: 1.2rem;
-  margin-bottom: 10px;
 }
 
 .text-section h1 {
@@ -99,7 +99,9 @@ main .main-section {
 }
 
 .main-card {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   flex: 1;
+  max-width: 500px;
   text-align: center;
   color: white;
   border-radius: 15px;
@@ -110,10 +112,17 @@ main .main-section {
   padding: 10px 20px;
 }
 
+.main-card h2 {
+  margin-bottom: 1.2vw;
+}
+
 .main-card p {
   font-size: 1rem;
 }
 
+.main-card h2 i {
+   margin-right: 10px;
+}
 
 
 
